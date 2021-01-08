@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "arrow-parens": "warn",
+    "semi": "warn",
+    "quotes": ["warn", "single"],
+    "prefer-const": "warn",
+    "require-await": "error"
+  }
+}

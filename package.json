@@ -1,0 +1,20 @@
+{
+  "name": "djs-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for any Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "npx eslint ."
+  },
+  "author": "kikorpp",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "nodemon": "^2.0.7"
+  }
+}
